@@ -181,7 +181,7 @@ a {
 .main-content,
 .how {
     display: flex;
-    padding-top: 6em;
+    padding-top: 4em;
     margin: 0 auto;
     width: 90%;
     flex-direction: column;
@@ -196,6 +196,14 @@ a {
     font-size: 3rem;
     text-align: center;
     margin: 3em 0;
+}
+
+/*ABOUT ME*/
+
+.my-photo{
+    display: block;
+    width: 282px;
+    height: 282px;
 }
 
 
