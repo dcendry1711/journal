@@ -93,7 +93,7 @@ header h4 {
 .grid-item,
 .head-article {
     display: flex;
-    margin: 1em 3em 0;
+    margin: 1em 3em;
     gap: .2em;
     flex-direction: column;
 }
@@ -193,7 +193,7 @@ a {
 }
 
 .recent-posts {
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-align: center;
     margin: 4em 0;
 }
