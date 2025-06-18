@@ -94,6 +94,7 @@ header h4 {
 .head-article {
     display: flex;
     margin: 1em 3em;
+    padding-bottom: 1em;
     gap: .2em;
     flex-direction: column;
 }
