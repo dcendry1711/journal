@@ -7,44 +7,13 @@
     font-family: "Source Sans 3", sans-serif;
 }
 
-/*SITE LAYOUT (NOW ANLY MAIN SECTION)*/
-
-main {
+body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 650px;
-    gap: 1em;
     grid-template-areas: 
-    "headart"
-    "blog1"
-    "blog2"
-    "blog3"
-    "blog4"
-    "blog5";
-}
-
-.headart {
-    grid-area: headart;
-}
-
-.blog1 {
-    grid-area: blog1;
-}
-
-.blog2 {
-    grid-area: blog2;
-}
-
-.blog3 {
-    grid-area: blog3;
-}
-
-.blog4 {
-    grid-area: blog4;
-}
-
-.blog5 {
-    grid-area: blog5;
+    "header"
+    "main"
+    "footer";
 }
 
 /*HEADER*/
@@ -78,7 +47,48 @@ header h4 {
     font-size: 2.1rem;
 }
 
-/*Main Section layout*/
+/*IndexHTML section LAYOUT */
+
+.index-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 650px;
+    gap: 1em;
+    grid-template-areas: 
+    "headart"
+    "blog1"
+    "blog2"
+    "blog3"
+    "blog4"
+    "blog5";
+}
+
+.headart {
+    grid-area: headart;
+    justify-content: end;
+}
+
+.blog1 {
+    grid-area: blog1;
+}
+
+.blog2 {
+    grid-area: blog2;
+}
+
+.blog3 {
+    grid-area: blog3;
+}
+
+.blog4 {
+    grid-area: blog4;
+}
+
+.blog5 {
+    grid-area: blog5;
+}
+
+/*Main Section style*/
 
 .grid-item,
 .head-article {
@@ -89,11 +99,10 @@ header h4 {
 }
 
 .head-article {
-    margin: 0;
     background-image: url('./img/article-image-hero.png');
     background-size: cover;
     padding: 2em 2em;
-    justify-content: end;
+    margin: 0;
     color: white;
 }
 
@@ -122,6 +131,8 @@ header h4 {
 /*FOOTER*/
 
 footer {
+    display: flex;
+    flex-direction: column;
     margin-top: 1.5em;
     padding: 3em 0;
     background: black;
@@ -155,3 +166,36 @@ a {
     text-decoration: none;
     color: black;
 }
+
+#head-link {
+    color: white;
+}
+
+#head-link:hover {
+    
+    text-decoration: underline;
+}
+
+/*ARTICLE*/
+
+.main-content,
+.how {
+    display: flex;
+    padding-top: 6em;
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.main-content img {
+    border-radius: 5px;
+}
+
+.recent-posts {
+    text-align: center;
+    margin: 4em 0;
+}
+
+
+
