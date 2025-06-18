@@ -156,7 +156,7 @@ h2 {
 }
 
 p {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.5;
 }
 
@@ -177,6 +177,10 @@ a {
 }
 
 /*ARTICLE*/
+
+article p {
+    font-size: 2rem;
+}
 
 .main-content,
 .how {
