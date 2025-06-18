@@ -111,6 +111,13 @@ nav {
 
 /*FOOTER*/
 
+footer {
+    padding: 3em 0;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+}
 
 
 /*FONTS*/
