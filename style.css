@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 293px;
+    gap: 1em;
+    grid-template-areas: 
+    "headart"
+    "blog1"
+    "blog2"
+    "blog3"
+    "blog4"
+    "blog5";
+}
+
+.grid-item,
+.head-article {
+    display: flex;
+    margin: 0 1em;
+    gap: .2em;
+    flex-direction: column;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.article-date {
+    margin-top: .6em;
+    font-size: 0.875rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.head-date {
+    font-size: 0.75rem;
+    margin:0;
+}
+
+.head-article {
+    margin: 0;
+    background-image: url('./img/article-image-hero.png');
+    background-size: cover;
+    padding: 2em 2em;
+    justify-content: end;
+    color: white;
+}
+
+
+
+.headart {
+    grid-area: headart;
+}
+
+.blog1 {
+    grid-area: blog1;
+}
+
+.blog2 {
+    grid-area: blog2;
+}
+
+.blog3 {
+    grid-area: blog3;
+}
+
+.blog4 {
+    grid-area: blog4;
+}
+
+.blog5 {
+    grid-area: blog5;
+}
+
+.hidden {
+    display: none;
+}
+
+.view-more {
+    margin: 1em;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+    cursor: pointer;
+}
