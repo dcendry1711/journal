@@ -12,7 +12,7 @@
 main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 293px;
+    grid-template-rows: 450px;
     gap: 1em;
     grid-template-areas: 
     "headart"
@@ -53,11 +53,12 @@ header,
 nav,
 .logo-section {
     display: flex;
+    align-items: center;
 }
 
 header {
     justify-content: space-between;
-    padding: 1.5em 1em;
+    padding: 1.5em 2em;
 }
 
 .logo-section {
@@ -68,12 +69,21 @@ nav {
     gap: 3em;
 }
 
+header img {
+    width: 75px;
+    height: 75px;
+}
+
+header h4 {
+    font-size: 2.1rem;
+}
+
 /*Main Section layout*/
 
 .grid-item,
 .head-article {
     display: flex;
-    margin: 0 1em;
+    margin: 1em 3em 0;
     gap: .2em;
     flex-direction: column;
 }
@@ -93,7 +103,7 @@ nav {
 }
 
 .article-date {
-    margin-top: .6em;
+    margin-top: 1.5em;
     font-size: 0.875rem;
 }
 
@@ -122,13 +132,14 @@ footer {
 
 /*FONTS*/
 h1 {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 p {
+    font-size: 2rem;
     line-height: 1.5;
 }
