@@ -52,7 +52,7 @@ header h4 {
 .index-page {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 650px;
+    grid-template-rows: 750px;
     gap: 1em;
     grid-template-areas: 
     "headart"
