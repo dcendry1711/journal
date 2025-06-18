@@ -126,7 +126,11 @@ footer {
     background: black;
     color: white;
     text-align: center;
-    font-size: 0.75rem;
+}
+
+footer h4,
+footer p {
+    font-size: 1.6rem;
 }
 
 
