@@ -43,10 +43,6 @@ header img {
     height: 75px;
 }
 
-header h4 {
-
-}
-
 /*IndexHTML section LAYOUT */
 
 .index-page {
@@ -59,6 +55,7 @@ header h4 {
     "blog1"
     "blog2"
     "blog3"
+    "view"
     "blog4"
     "blog5";
 }
@@ -116,9 +113,9 @@ header h4 {
 }
 
 .view-more {
+    text-align: center;
     grid-area: view;
     margin: 1em;
-    text-align: center;
     font-weight: 900;
     text-decoration: underline;
     cursor: pointer;
