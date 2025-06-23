@@ -44,7 +44,7 @@ header img {
 }
 
 header h4 {
-    font-size: 2.1rem;
+
 }
 
 /*IndexHTML section LAYOUT */
@@ -108,13 +108,11 @@ header h4 {
 }
 
 .head-date {
-    font-size: 1.2rem;
     margin:0;
 }
 
 .article-date {
     margin-top: 1.4em;
-    font-size: 1.2rem;
 }
 
 .view-more {
@@ -143,21 +141,20 @@ footer {
 
 footer h4,
 footer p {
-    font-size: 1.6rem;
 }
 
 
 /*FONTS*/
 h1 {
-    font-size: 4rem;
+
 }
 
 h2 {
-    font-size: 3rem;
+
 }
 
 p {
-    font-size: 2.5rem;
+
     line-height: 1.5;
 }
 
@@ -180,7 +177,7 @@ a {
 /*ARTICLE*/
 
 article p {
-    font-size: 1.5rem;
+
 }
 
 .main-content,
@@ -198,7 +195,6 @@ article p {
 }
 
 .recent-posts {
-    font-size: 3rem;
     text-align: center;
     margin: 3em 0;
 }
