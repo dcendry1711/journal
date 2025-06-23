@@ -162,6 +162,14 @@ p {
     line-height: 1.5;
 }
 
+.head-date {
+    font-size: 2rem;
+}
+
+.recent-posts {
+    font-size: 2rem;
+}
+
 /*LINKS*/
 
 a {
