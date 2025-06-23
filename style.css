@@ -116,6 +116,7 @@ header h4 {
 }
 
 .view-more {
+    grid-area: view;
     margin: 1em;
     text-align: center;
     font-weight: 900;
@@ -216,17 +217,50 @@ a {
 
 /*MEDIA QUERY*/
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .index-page {
-  
     grid-template-columns: repeat(3,minmax(250px,1fr));
     grid-template-rows: 750px;
     gap: 1em;
     grid-template-areas: 
     "headart headart headart"
+    ". . ."
+    ". . ."
+    ". . ."
+    ". . ."
     "blog1 blog2 blog3"
-    "blog4 blog5 .";
-}
+    "blog4 blog5 ."
+    ". view .";
+    }
+    h1 {
+    font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .head-date {
+        font-size: .8rem;
+    }
+
+    .recent-posts {
+        font-size: 2.5rem;
+    }
+
+    article p {
+        font-size: .8rem;
+    }
+
 }
 
 
