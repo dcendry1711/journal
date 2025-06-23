@@ -214,5 +214,20 @@ a {
     height: 382px;
 }
 
+/*MEDIA QUERY*/
+
+@media (min-width: 768px) {
+    .index-page {
+  
+    grid-template-columns: repeat(3,minmax(250px,1fr));
+    grid-template-rows: 750px;
+    gap: 1em;
+    grid-template-areas: 
+    "headart headart headart"
+    "blog1 blog2 blog3"
+    "blog4 blog5 .";
+}
+}
+
 
 
