@@ -139,11 +139,6 @@ footer {
     text-align: center;
 }
 
-footer h4,
-footer p {
-}
-
-
 /*FONTS*/
 h1 {
     font-size: 5rem;
@@ -170,6 +165,10 @@ p {
     font-size: 2.5rem;
 }
 
+article p {
+    font-size: .7rem;
+}
+
 /*LINKS*/
 
 a {
@@ -187,10 +186,6 @@ a {
 }
 
 /*ARTICLE*/
-
-article p {
-
-}
 
 .main-content,
 .how {
